@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+
+.header {
+    margin-top: 10px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    color: orange;
+    text-shadow: 1px 3px rgba(255, 255, 255, 0.15);
+}
+
+.header input {
+    width: 75%;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cityName {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.temp {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.minmax {
+    font-size: 20px;
+}
